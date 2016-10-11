@@ -2,6 +2,13 @@
 body
 {
   background: #fff;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1,h2,h3
+{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
 }
 
 .header
