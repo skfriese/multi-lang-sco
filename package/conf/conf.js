@@ -19,7 +19,7 @@ var CONF = CONF || {
    * "lang" values included in the "SCOS" list for each language.
    * @type {String}
    */
-  SCO_ROOT_FOLDER: "Introduction_to_Contracts",
+  SCO_ROOT_FOLDER: "Sample_SCO",
 
   /**
    * Configuration for the SCOs existing in this package. For each
@@ -76,7 +76,7 @@ var CONF = CONF || {
    * be the same across all SCOs. 
    * @type {String}
    */   
-  SCO_LAUNCH_FILE: "index_lms_html5.html",
+  SCO_LAUNCH_FILE: "index.html",
 
   /**
    * For first-time viewing by an end-user. This will be the default
