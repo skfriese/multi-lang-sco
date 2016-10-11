@@ -1,0 +1,82 @@
+
+body
+{
+  background: #fff;
+}
+
+.header
+{
+  min-height: 60px;
+  background: url(../../conf/header-bg.png);
+}
+
+.columns
+{
+  padding:0;
+}
+
+#ui
+{
+  background: url(../../conf/ui-bg.png) right bottom 75% no-repeat;
+}
+
+#ui.error
+{
+  padding:1em;
+  border:4px solid #e74c3c;
+}
+#ui.error h1
+{
+  color:#e74c3c;
+}
+
+.left-column
+{
+  background: #2c3e50;
+  color:#999;
+}
+
+.left-column ul
+{
+  margin: 0;
+  padding: 0;
+}
+
+.left-column li
+{
+  background: #2c3e50;
+  color: #7795B3;
+  list-style: none;
+  border-bottom: 1px solid #537495;
+  padding: 1rem;
+  cursor: pointer;
+}
+.left-column li:last-child
+{
+  border:none;
+}
+.left-column li[aria-pressed="false"]:hover
+{
+  background: #161F27;
+}
+
+.left-column li[role="button"][aria-pressed="true"]
+{
+  color: #2c3e50;
+  background: #DFEEF5;
+}
+
+.right-column>div
+{
+  padding:1rem;
+}
+
+h1
+{
+  font-size:2rem;
+}
+
+#launch-course
+{
+  display:none;
+}

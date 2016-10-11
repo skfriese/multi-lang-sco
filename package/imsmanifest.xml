@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<manifest identifier="MANIFEST01" version="1.2" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+  </metadata>
+  <organizations default="MANIFEST01_ORG1">
+    <organization identifier="MANIFEST01_ORG1" structure="hierarchical">
+      <title>Multi Language SCO Sample</title>
+      <item identifier="Page1" identifierref="Page1Res" isvisible="true">
+        <title>Multi Language SCO Sample</title>
+        <adlcp:masteryscore>80</adlcp:masteryscore>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="Page1Res" adlcp:scormtype="sco" type="webcontent" href="index.html"></resource>
+  </resources>
+</manifest>
