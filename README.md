@@ -134,4 +134,4 @@ Just as in every other SCORM PIF (package), you must ensure the ```imsmanifest.x
 *Note:* Some LMS environments attempt to import multiple manifests located in any subfolders within the package. Should your LMS fail on import due to this, simply remove the ```imsmanifest.xml``` from each of the SCOs within the "/scos" folder and re-zip the package.
 
 ## Credits
-Sean K. Friese (skfriese@gmail.com)
+Sean K. Friese - https://github.com/skfriese
