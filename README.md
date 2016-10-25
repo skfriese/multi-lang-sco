@@ -28,7 +28,12 @@ In order to keep language data separate between SCOs, set a unique identifier fo
 ### SCO Root Folder
 Each SCO should be named simiarly with the same prefix, followed by a "_[LANGUAGE]" suffix, denoting the language of the SCO. This will be used when launching the SCO, in conjunction with the "lang" values included in the "SCOS" list for each language.
 ```
-  SCO_ROOT_FOLDER: "My Awesome Training Module",
+  SCO_ROOT_FOLDER: "My_Awesome_Training_Module",
+```
+
+Based on the example above, the multi-lang-sco utility will assume the following folder exists for English:
+```
+"My_Awesome_Training_Module_English"
 ```
 
 ### Supported Languages
